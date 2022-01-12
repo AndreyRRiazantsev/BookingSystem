@@ -1,0 +1,45 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+:root {
+  --colorText: red;
+}
+
+
+html,
+body {
+  margin: 0;
+}
+
+img, video {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+.field-btn {
+  background: transparent;
+  border: none;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-size: 1.4em;
+
+  & > * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
